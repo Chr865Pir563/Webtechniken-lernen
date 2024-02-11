@@ -1,0 +1,67 @@
+/**
+  * 4. Inhalte gestalten 
+  */ 
+
+/* Links für den Inhaltsbereich gestalten */
+
+.site-content a:link {color: #07b;}
+.site-content a:visited {color: #70b;}
+
+.site-content a:hover,
+.site-content a:focus {color: #f63;}
+
+.site-content a:active {color: #ec3;}
+
+
+/* Startseite - Abschnitt mit Infoboxen */
+.infoboxen {
+    background-color: whitesmoke;
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+}
+.infobox {
+    text-align: center;
+    background-color: white;
+    padding: 1rem; 
+    margin: 1rem; 
+}
+
+/* Startseite - Zitate von Kunden */
+.kundenstimme {
+    background-color: whitesmoke;
+    padding: 1rem; 
+    border-left: 5px solid #07b; 
+    margin-bottom: 1rem; 
+}
+
+
+/* Seite News - grundlegende Gestaltung */
+.beitragsliste h3, 
+.linklisten h3 {
+    padding-top: 0.5rem;
+    border-top: 1px solid whitesmoke;
+    margin-bottom: 0.25rem;
+  }
+.beitragsliste article, 
+.linklisten section { 
+    margin-bottom: 3rem; 
+} 
+.beitragsinfo { color: dimgrey; }
+
+
+/* Seite Über uns - Liste der Mitglieder */
+.mitglieder {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+.mitglied {
+    background-color: whitesmoke;
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
+  }
+
+
+
+
+

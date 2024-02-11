@@ -1,0 +1,20 @@
+/* 2. Layoutbereiche gestalten (Header)  */
+.site-header {
+    padding: 1rem 1rem 0 1rem;
+
+}
+  
+
+/* Abstand zwischen Logo und Slogan */
+.site-header h1 {
+    margin-bottom: 0; 
+}
+.site-header p {
+    margin-top: 0; 
+}
+
+.site-content {
+    line-height: 1.5;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,53 @@
+/** 
+  * 3. Navigation (und Footer)  
+  */
+
+
+  
+  .site-nav, 
+  .site-footer {
+      background-color: #333;
+      color: white; 
+      padding: 0.5rem 1rem; 
+      margin: 1rem 0; 
+  }
+  
+  .site-nav {margin-bottom: 2rem;}
+  
+  .site-nav ul {
+      padding: 0; 
+      margin: 0; 
+  }
+  .site-nav li {
+      display: inline; 
+      margin-right: 0.5rem; 
+  }
+  .site-nav a,
+  .site-footer a {
+      color: white; 
+      text-decoration: none;
+  }
+  
+  .site-nav a:hover,
+  .site-nav a:focus,
+  .site-footer a:hover,
+  .site-footer a:focus {
+      border-bottom: 1px solid white;
+  }
+  
+  /* Externe Links kennzeichnen */
+  .site-content a[href^="https"]::after {
+      content: " \29c9";
+  
+  }
+  
+  /* Aktuellen Menüpunkt hervorheben */
+  .site-nav a.current {
+      /* text-decoration: underline; */
+      border-bottom: 1px solid white; 
+  }
+  
+  /* Link "Nach oben" rechts ausrichten */
+  .site-footer {
+      text-align: right;
+  }

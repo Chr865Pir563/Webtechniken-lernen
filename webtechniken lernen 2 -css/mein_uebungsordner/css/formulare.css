@@ -1,0 +1,78 @@
+/** 
+  * 5. Formulare gestalten 
+  */ 
+
+
+
+/* Seite Kontakt - Kontaktdaten und Kontaktformular */
+.kontaktdaten {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.kontaktdaten address {
+    font-style: normal;
+}
+
+/* Kontaktformular */
+.kontaktformular label { 
+    display: block; 
+    cursor: pointer;
+}
+
+
+.kontaktformular  div { 
+    margin-bottom: 1rem; 
+}
+
+/* Eingabefelder */
+.kontaktformular input[type="text"],
+.kontaktformular input[type="email"],
+.kontaktformular textarea {
+    font-size: inherit;
+    font-family: inherit;
+    color: #07b;
+
+    width: 16rem;
+    padding: 0.5rem;
+    border: 1px solid dimgrey;
+    border-radius: 0.25rem;
+}
+
+.kontaktformular input[type="text"]:focus,
+.kontaktformular input[type="email"]:focus,
+.kontaktformular textarea:focus {
+    background-color: whitesmoke;
+}
+
+/* Textarea - Breite begrenzen */
+.kontaktformular textarea {
+    max-width: 25rem;
+    min-height: 8rem;
+}
+
+.kontaktformular button {
+    font-size: inherit;
+    font-family: inherit;
+    text-align: center;
+
+    background-color: #07b;
+    color: white;
+
+    min-width: 16rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+
+.kontaktformular button:hover,
+.kontaktformular button:focus {
+    background: #f63;
+}
+
+
+/* eof */ 
